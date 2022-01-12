@@ -218,12 +218,12 @@
     },
     "PANOSVersion": {
       "type": "string",
-      "defaultValue": "10.0.6",
+      "defaultValue": "latest",
       "allowedValues": [
         "latest",
-        "10.1.0",
-        "10.0.6",
-        "9.1.10"
+        "8.1.0",
+        "8.0.0",
+        "7.1.1"
       ],
       "metadata": {
         "description": "Select the PAN-OS version to deploy.  Selecting 'Latest' deploys the latest available image on the Azure Marketplace."
