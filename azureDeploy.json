@@ -276,16 +276,18 @@
         "description": "Enter a name for the firewall's availability set.  If you are not using an availability set, enter any string."
       }
     },
-    "zone": {
+    "zone-FW1": {
       "type": "string",
       "defaultValue": "1",
-      "allowedValues": [
-        "1",
-        "2",
-        "3"
-       ],
        "metadata": {
           "description": "Zone number for the FW1"
+      }
+    },
+    "zone-FW2": {
+      "type": "string",
+      "defaultValue": "2",
+       "metadata": {
+          "description": "Zone number for the FW2"
       }
     },
     "acceleratedNetworking": {
@@ -1008,7 +1010,7 @@
         "CREATE_PUBLICLB"
       ],
       "zones": [
-        "[parameters('zone')]"
+        "[parameters('zone-FW1')]"
       ],
       "properties": {
         "mode": "Incremental",
@@ -1274,7 +1276,7 @@
         "CREATE_PUBLICLB"
       ],
       "zones": [
-        "[parameters('zone')]"
+        "[parameters('zone-FW2')]"
       ],
       "properties": {
         "mode": "Incremental",
