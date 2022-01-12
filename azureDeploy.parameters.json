@@ -101,6 +101,12 @@
     "availabilitySetName": {
       "value": "vmseries-fw-as"
     },
+    "zone FW1": {
+        "value": "1"      
+    },
+    "zone FW2": {
+        "value": "2"      
+    },
     "acceleratedNetworking": {
       "value": "disable"
     },
