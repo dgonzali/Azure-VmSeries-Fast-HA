@@ -221,7 +221,7 @@
       "defaultValue": "latest",
       "allowedValues": [
         "latest",
-	"10.2.4"
+	"10.2.3"
       ],
       "metadata": {
         "description": "Select the PAN-OS version to deploy.  Selecting 'Latest' deploys the latest available image on the Azure Marketplace."
