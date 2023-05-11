@@ -1596,7 +1596,7 @@
                         "publisher": "cloudwhizsolutions",
                         "offer": "apache-web-server-with-ubuntu-18-04-lts-cw",
                         "sku": "apache-web-server-with-ubuntu-18-04-lts-cw",
-                        "version": "1.2019.1008"
+                        "version": "latest"
                     },
                     "osDisk": {
                         "osType": "Linux",
